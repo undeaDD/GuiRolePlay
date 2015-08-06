@@ -194,15 +194,15 @@ import org.bukkit.inventory.meta.SkullMeta;
 			inv.setItem(14, description);
 			inv.setItem(8, help);
 			
-				if(p.hasPermission("rpc.inv.view.toggle") || plugin.uuid.contains(p.getUniqueId().toString())){
+				if(p.hasPermission("rpc.inv.view.toggle")){
 					inv.setItem(16, toggle);
 				}else{inv.setItem(16, nope);}
 				
-				if(p.hasPermission("rpc.inv.view.other") || plugin.uuid.contains(p.getUniqueId().toString())){
+				if(p.hasPermission("rpc.inv.view.other")){
 					inv.setItem(25, other);
 				}else{inv.setItem(25, nope);}
 				
-				if(p.hasPermission("rpc.inv.view.reload") || plugin.uuid.contains(p.getUniqueId().toString())){
+				if(p.hasPermission("rpc.inv.view.reload")){
 					inv.setItem(34, reload);
 				}else{inv.setItem(34, nope);}
 				
