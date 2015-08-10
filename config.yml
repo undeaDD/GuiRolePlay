@@ -1,0 +1,67 @@
+messages:
+  prefix: '&7[&2RPC&7] '
+  cmd_ingame_only: '&c/rpc can only be executed ingame.'
+  no_perm: '&cYou dont have permissions to do that.'
+  reload: '&cConfig was reloaded.'
+  card_toggle: '&cYour Card was toggled successfully!'
+  
+conversations:
+  box: '&8------------------------------------'
+  cancel: '&cConversation canceled.'
+  nick_start: '&aEnter your new Nickname:'
+  nick_done: '&aYour Nickname was changed to: &3'
+  gender_start: '&aEnter your gender: &3'
+  gender_error1: '&cToo many arguments.'
+  gender_error2: '&cInvalid argument.'
+  gender_done: '&aYour Gender was changed to: &3'
+  age_start: '&aEnter your new Age:'
+  age_error1: '&cInput must be between 0 and 999999'
+  age_error2: '&cInput must be an Integer'
+  age_done: '&aYour Age was changed to: &3'
+  race_start: '&aEnter your new Ethnicity:'
+  race_done: '&aYour Ethnicity was changed to: &3'
+  desc_start: '&aEnter your new Description:'
+  desc_done: '&aYour Description was changed successfully'
+  other_start: '&aEnter Playername you want to edit:'
+  other_done: '&aOpening Player Card ...'
+  
+  
+settings:
+  show_help_item: true
+  must_shift_rightclick: false
+  inv_title: '&8[&2%PLAYER%&8]'
+  help_item:
+    - 'All:'
+    - 'type "close" or "exit" to end any conversation'
+    - ''
+    - 'Description:'
+    - 'multiple lines are supported'
+    - 'type "done" to save the description'
+display:
+  - '&8-------[&2Character Card&8]--------'
+  - '&7Name: &2%NICK%'
+  - '&7Gender: &2%GENDER%'
+  - '&7Age: &2%AGE%'
+  - '&7Race: &2%RACE%'
+  - '&7Description:'
+  - '&2%DESCRIPTION%'
+  - '&8----------[  &2v. 7.0 &8 ]------------'
+
+display-extended:
+  - '&8-------[&2Character Card&8]--------'
+  - '&7Player: &2%PLAYER%'
+  - '&7OP: &2%OP%'
+  - '&7UUID: &2%UUID%'
+  - '&7IP: &2%IP%'
+  - '&7Health: &2%HEALTH%'
+  - '&7Hunger: &2%HUNGER%'
+  - '&7Level: &2%LEVEL%'
+  - '&7Gamemode: &2%GAMEMODE%'
+  - '&8--------------------------------'
+  - '&7Name: &2%NICK%'
+  - '&7Gender: &2%GENDER%'
+  - '&7Age: &2%AGE%'
+  - '&7Race: &2%RACE%'
+  - '&7Description:'
+  - '&2%DESCRIPTION%'
+  - '&8----------[  &2v. 7.0 &8 ]------------'
