@@ -1,0 +1,11 @@
+name: RolePlayCards
+main: xyz.undeaD_D.RPC.RPC
+description: Roleplay Player Cards
+version: 9
+author: undeaD_D
+authors: [DieFriiks, undeaD_D]
+commands:
+  rpc:
+    usage: /rpc
+    aliases: [card, cards, roleplaycards]
+    description: Get the RoleplayPlayerCards Item
