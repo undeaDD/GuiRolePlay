@@ -192,8 +192,11 @@ import org.bukkit.inventory.meta.SkullMeta;
 			inv.setItem(12, age);
 			inv.setItem(13, race);
 			inv.setItem(14, description);
-			inv.setItem(8, help);
 			
+				if(plugin.config.getBoolean("")){
+					inv.setItem(8, help);
+				}
+
 				if(p.hasPermission("rpc.inv.view.toggle")){
 					inv.setItem(16, toggle);
 				}else{inv.setItem(16, nope);}
